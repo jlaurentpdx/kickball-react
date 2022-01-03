@@ -1,25 +1,16 @@
-# Alchemy React Base Template
+# Kickball League
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Use this template for all your "from scratch" deliverables. To start, simply run
-
-- `npm install`
-- `npm start`
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Make a new `dev` branch
+1. Add Supabase keys [find in Canvas]
+1. Create `views/` with the following files:
+   `PlayerList.js`
+   `PlayerDetail.js`
+   `TeamList.js`
+   `TeamDetail.js`
+1. Set up our Routes in `App.js`
+1. Fetch data from Supabase in `services/`:
+   `players.js`
+   `teams.js`
+1. Create Navigation bar outside the scope of our Routes
+1. Create home page as our initial Route
+1. Initialize one of our views!
