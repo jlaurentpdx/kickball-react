@@ -10,7 +10,6 @@ export default function PlayerId(props) {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPlayerById(id);
-      console.log(data[0]);
       setPlayer(data[0]);
       setLoading(false);
     };
