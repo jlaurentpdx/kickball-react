@@ -9,7 +9,6 @@ export default function Players() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPlayers();
-      console.log(data);
       setPlayers(data);
       setLoading(false);
     };
@@ -18,5 +17,5 @@ export default function Players() {
 
   if (loading) return <h1>Please wait...</h1>;
 
-  return <div></div>;
+  return <PlayerList players={players} />;
 }
