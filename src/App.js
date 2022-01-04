@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 import Teams from './views/Teams';
+import TeamById from './views/TeamById';
 import Players from './views/Players';
+import PlayerById from './views/PlayerById';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         </header>
         <Switch>
           <Route exact path="/teams" component={Teams} />
-          <Route path="/teams/:id" />
-          <Route exact path="/players" component={Players} />
+          <Route path="/teams/:id" component={TeamById} />
+          <Route exact path="/players" />
           <Route path="/players/:id" />
         </Switch>
       </div>
