@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import TeamDetail from '../components/TeamDetail';
 import { fetchTeamById } from '../services/teams';
+import TeamDetail from '../components/TeamDetail';
 
-export default function TeamById(props) {
+export default function TeamId(props) {
   const id = props.match.params.id;
   const [loading, setLoading] = useState(true);
   const [team, setTeam] = useState(null);
