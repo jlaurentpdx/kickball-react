@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { fetchPlayerById } from '../services/players';
-import PlayerDetail from '../components/PlayerDetail';
+import { fetchPlayerById } from '../../services/players';
+import PlayerDetail from '../../components/Players/PlayerDetail';
 
 export default function PlayerId(props) {
   const id = props.match.params.id;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { fetchPlayers } from '../services/players';
-import PlayerList from '../components/PlayerList';
+import { fetchPlayers } from '../../services/players';
+import PlayerList from '../../components/Players/PlayerList';
 
 export default function Players() {
   const [loading, setLoading] = useState(true);

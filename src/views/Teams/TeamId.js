@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { fetchTeamById } from '../services/teams';
-import TeamDetail from '../components/TeamDetail';
+import { fetchTeamById } from '../../services/teams';
+import TeamDetail from '../../components/Teams/TeamDetail';
 
 export default function TeamId(props) {
   const id = props.match.params.id;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { fetchTeams } from '../services/teams';
-import TeamList from '../components/TeamList';
+import { fetchTeams } from '../../services/teams';
+import TeamList from '../../components/Teams/TeamList';
 
 export default function Teams() {
   const [loading, setLoading] = useState(true);

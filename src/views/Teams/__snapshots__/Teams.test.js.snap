@@ -1,62 +1,96 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render a Team to page that matches the teams id 1`] = `
+exports[`should render a list of all Teams to the page 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <h1>
-        Bridge City Sneakers
+        Teams
       </h1>
-      <div>
-        <a
-          href="/players/2"
-        >
-          Hans Olo
-        </a>
-        <a
-          href="/players/3"
-        >
-          Ron Long
-        </a>
-        <a
-          href="/players/4"
-        >
-          Shorty Biggum
-        </a>
-        <a
-          href="/players/1"
-        >
-          Bennie Jetts
-        </a>
+      <div
+        class="team-list"
+      >
+        <div>
+          <a
+            href="/teams/1"
+          >
+            Bridge City Sneakers
+          </a>
+        </div>
+        <div>
+          <a
+            href="/teams/3"
+          >
+            Lakeville Thunderfeet
+          </a>
+        </div>
+        <div>
+          <a
+            href="/teams/4"
+          >
+            Mt. Hoodies
+          </a>
+        </div>
+        <div>
+          <a
+            href="/teams/2"
+          >
+            Stumptown Lumberjacks
+          </a>
+        </div>
+        <div>
+          <a
+            href="/teams/5"
+          >
+            Vancougers
+          </a>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <h1>
-      Bridge City Sneakers
+      Teams
     </h1>
-    <div>
-      <a
-        href="/players/2"
-      >
-        Hans Olo
-      </a>
-      <a
-        href="/players/3"
-      >
-        Ron Long
-      </a>
-      <a
-        href="/players/4"
-      >
-        Shorty Biggum
-      </a>
-      <a
-        href="/players/1"
-      >
-        Bennie Jetts
-      </a>
+    <div
+      class="team-list"
+    >
+      <div>
+        <a
+          href="/teams/1"
+        >
+          Bridge City Sneakers
+        </a>
+      </div>
+      <div>
+        <a
+          href="/teams/3"
+        >
+          Lakeville Thunderfeet
+        </a>
+      </div>
+      <div>
+        <a
+          href="/teams/4"
+        >
+          Mt. Hoodies
+        </a>
+      </div>
+      <div>
+        <a
+          href="/teams/2"
+        >
+          Stumptown Lumberjacks
+        </a>
+      </div>
+      <div>
+        <a
+          href="/teams/5"
+        >
+          Vancougers
+        </a>
+      </div>
     </div>
   </div>,
   "debug": [Function],
